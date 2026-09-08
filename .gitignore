@@ -1,0 +1,29 @@
+# Voice reference files
+*.wav
+*.mp3
+*.ogg
+
+# Generated audio
+audio/
+rnn_audio/
+
+# Coqui / XTTS model files and caches
+.cache/
+.tts/
+models/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
